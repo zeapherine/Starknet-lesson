@@ -1,4 +1,5 @@
-
+# Contract address: 0x05c769ac2e704647dc4c179f545fd926c8714a5da6cd617aaf29e398a487fab9
+# Transaction hash: 0x18779d4d8471d9ae69e1219dd876e65196f8f0dd7846d66c5d24583580c341c
 
 %lang starknet
 
