@@ -1,0 +1,75 @@
+[
+    {
+        "inputs": [
+            {
+                "name": "admin_address",
+                "type": "felt"
+            }
+        ],
+        "name": "constructor",
+        "outputs": [],
+        "type": "constructor"
+    },
+    {
+        "inputs": [
+            {
+                "name": "admin_address",
+                "type": "felt"
+            }
+        ],
+        "name": "add_admin",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "admin_address",
+                "type": "felt"
+            }
+        ],
+        "name": "remove_admin",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "new_admin_address",
+                "type": "felt"
+            }
+        ],
+        "name": "transfer_admin_role",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "renounce_admin_role",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "amount",
+                "type": "felt"
+            }
+        ],
+        "name": "add_balance",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "view_balance",
+        "outputs": [
+            {
+                "name": "balance",
+                "type": "felt"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    }
+]
