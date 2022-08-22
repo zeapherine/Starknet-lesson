@@ -1,0 +1,71 @@
+[
+    {
+        "inputs": [
+            {
+                "name": "owners_len",
+                "type": "felt"
+            },
+            {
+                "name": "owners",
+                "type": "felt*"
+            }
+        ],
+        "name": "constructor",
+        "outputs": [],
+        "type": "constructor"
+    },
+    {
+        "inputs": [
+            {
+                "name": "contract_address",
+                "type": "felt"
+            },
+            {
+                "name": "function_selector",
+                "type": "felt"
+            },
+            {
+                "name": "calldata_len",
+                "type": "felt"
+            },
+            {
+                "name": "calldata",
+                "type": "felt*"
+            }
+        ],
+        "name": "submit_tx",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "tx_index",
+                "type": "felt"
+            }
+        ],
+        "name": "comfirm_tx",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "tx_index",
+                "type": "felt"
+            }
+        ],
+        "name": "__execute__",
+        "outputs": [
+            {
+                "name": "return_data_len",
+                "type": "felt"
+            },
+            {
+                "name": "return_data",
+                "type": "felt*"
+            }
+        ],
+        "type": "function"
+    }
+]
